@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background: url("slike/pozadina.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color:white;
+  }
+  .home {
+    margin:10px;
+    width: 50px;
+    height: 50px;
+}
+  .tekst{
+    position: relative;
+    top:-30px;
+    font-size: 25px;
+    text-align: center;
+  }
+  header {
+    height: 50px;
+  }
+ #tabelica{
+  position: relative;
+  top:-30px;
+  margin:20px auto;
+  font-size: 23px;
+  text-align: center;
+  border-collapse: collapse;
+}
+#tabelica,tr,td,th{
+    border:1px white solid;
+}
+#sl1{
+  position:absolute;
+  left:30px;
+  animation: mrdaj 5s infinite linear;
+  animation-delay: 0.2s;
+}
+#sl2{
+  position: absolute;
+  left:30px;
+  top:400px;
+  animation: mrdaj 5s infinite linear;
+  animation-delay: 0.6s;
+}
+#sl3{
+  position:absolute;
+  left: 1000px;
+  top:70px;
+  animation: mrdaj 5s infinite linear;
+  animation-delay: 0.3s;
+}
+#sl4{
+  position: absolute;
+  left:1250px;
+  top:500px;
+  animation: mrdaj 5s infinite linear;
+  animation-delay: 0.6s;
+}
+#sl5{
+  position: absolute;
+  left:1250px;
+  top:300px;
+  animation: mrdaj 5s infinite linear;
+}
+@keyframes mrdaj {
+  25%{transform: translate(100px,0px);}
+  50%{transform: translate(200px,0px);}
+  75%{transform: translate(100px,0px);}
+  100%{transform: translate(0px,0px);}
+  
+}
+
+
+
+  

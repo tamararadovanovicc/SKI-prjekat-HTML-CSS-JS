@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background: url("slike/pozadina.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color:white;
+  }
+  
+  header {
+    height: 250px;
+  }
+  
+  #ad {
+    position: absolute;
+    left:200px;
+    margin: 0 auto;
+    padding: 0;
+    animation: adMoveX 2.9s linear 0s infinite alternate,
+      adMoveY 1.7s linear 0s infinite alternate, adRotate 2s linear 0s infinite;
+  }
+  
+  hr {
+    margin: 0;
+    padding: 0;
+    left: 0;
+  }
+
+  @keyframes adMoveX {
+    from {
+      left: 5em;
+    }
+    to {
+      left: 30em;
+    }
+  }
+  
+  @keyframes adMoveY {
+    from {
+      top: 2em;
+    }
+    to {
+      top: 150px;
+    }
+  }
+  
+  @keyframes adRotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  #navigacija {
+    margin:10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .button {
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(223, 138, 194);
+    border-radius: 35%;
+    display: inline-block;
+    height: 70px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+  }
+  
+  .button:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  
+  .centar {
+    vertical-align: middle;
+    display: inline-block;
+    color:white;
+  }
+  
+  #um {
+    margin:10px;
+    font-size: 40px;
+  }
+  
+  #umotvorine {
+    margin:10px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  #index {
+    margin:10px;
+    font-size: 45px;
+  }
+  
+  .zadatak {
+    margin:10px;
+    font-size: 35px;
+  }
+  
+  .home {
+    margin:10px;
+    width: 50px;
+    height: 50px;
+  }
+  

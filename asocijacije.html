@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asocijacije.css">
+    
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="slike/kucica.png" alt="dugme-za-kuci" class="home">
+        </a>
+    </header>
+    <img src="slike/upitnik3.png" alt="?" id="sl1" class="sl">
+    <img src="slike/upitnik3.png" alt="?" id="sl2" class="sl">
+    <img src="slike/upitnik.png" alt="?" id="sl3" class="sl">
+    <img src="slike/upitnik.png" alt="?" id="sl4" class="sl">
+    <img src="slike/upitnik3.png" alt="?" id="sl5" class="sl">
+    <p id="tekst">Dobrodosli u igru asocijacije<br>odgovore unosite malim slovima !</p>
+    <div id="asocijacije" class="a">
+        <div id="kolone">
+            <div id="kolonaA">
+                <div id="a1" class="kockica">A1</div>
+                <div id="a2" class="kockica">A2</div>
+                <div id="a3" class="kockica">A3</div>
+                <div id="a4" class="kockica">A4</div>
+                <div id="resenjeA" class="kockica">
+                    <input type="text" onchange="provera('resA','resenjeA')" placeholder="RESENJE A" id="resA"/>
+                </div>
+            </div>
+            <div id="kolonaB">
+                <div id="b1" class="kockica">B1</div>
+                <div id="b2" class="kockica">B2</div>
+                <div id="b3" class="kockica">B3</div>
+                <div id="b4" class="kockica">B4</div>
+                <div id="resenjeB" class="kockica">
+                    <input type="text" onchange="provera('resB','resenjeB')" placeholder="RESENJE B" id="resB"/>
+                </div>
+            </div>
+            <div id="kolonaC">
+                <div id="c1" class="kockica">C1</div>
+                <div id="c2" class="kockica">C2</div>
+                <div id="c3" class="kockica">C3</div>
+                <div id="c4" class="kockica">C4</div>
+                <div id="resenjeC" class="kockica">
+                    <input type="text" onchange="provera('resC','resenjeC')" placeholder="RESENJE C" id="resC"/>
+                </div>
+            </div>
+            <div id="kolonaD">
+                <div id="d1" class="kockica">D1</div>
+                <div id="d2" class="kockica">D2</div>
+                <div id="d3" class="kockica">D3</div>
+                <div id="d4" class="kockica">D4</div>
+                <div id="resenjeD" class="resenja">
+                    <input type="text" onchange="provera('resD','resenjeD')" placeholder="RESENJE D" id="resD"/>
+                </div>
+            </div>
+        </div>
+        <div id="resenja">
+            <input type="text" onchange="provera('resK','resenja')" placeholder="KONACNO RESENJE" id="resK"/> 
+        </div>
+    </div>
+    <script src="asocijacije.js"></script>
+</body>
+</html>
